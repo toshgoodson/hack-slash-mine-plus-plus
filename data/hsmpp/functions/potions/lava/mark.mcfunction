@@ -1,0 +1,1 @@
+execute at @e[tag=hsmpp_potion,tag=hsmpp_potion_lava,tag=!hsmpp_initialized] run summon minecraft:armor_stand ~ ~ ~ {Invisible: 1b, Marker: 1b, Tags: ["hsmpp_potion_marker", "hsmpp_potion_lava"]}

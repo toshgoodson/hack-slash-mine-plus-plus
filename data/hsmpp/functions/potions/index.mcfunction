@@ -1,10 +1,13 @@
-function hsmpp:potions/tag
+function hsmpp:potions/_tag
 
 function hsmpp:potions/explosion/mark
+function hsmpp:potions/cactus/mark
+function hsmpp:potions/lava/mark
 
-execute at @e[tag=hsmpp_potion] run tp @e[tag=hsmpp_potion_marker,tag=!hsmpp_potion_marker_landed,sort=nearest,limit=1] ~ ~ ~
-execute as @e[tag=hsmpp_potion_marker] at @s unless entity @e[tag=hsmpp_potion,distance=..1] run tag @s add hsmpp_potion_marker_landed
+function hsmpp:potions/_marker
 
 function hsmpp:potions/explosion/proc
+function hsmpp:potions/cactus/proc
+function hsmpp:potions/lava/proc
 
 kill @e[tag=hsmpp_potion_marker_landed]

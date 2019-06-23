@@ -1,0 +1,1 @@
+summon minecraft:armor_stand ~ ~ ~ {Small: 1b,Invisible: 1b,Marker:1b,ArmorItems:[{},{},{},{id:"minecraft:cactus",Count:1}],Pose:{Head:[180f,0f,0f]}}

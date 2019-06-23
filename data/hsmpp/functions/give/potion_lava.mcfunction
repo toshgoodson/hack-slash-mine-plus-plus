@@ -1,0 +1,1 @@
+give @s minecraft:splash_potion{CustomPotionColor: 16752896, Potion: "hsmpp:potion_lava"}
