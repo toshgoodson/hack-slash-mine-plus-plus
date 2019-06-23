@@ -1,0 +1,1 @@
+execute at @e[tag=hsmpp_potion_explosion,tag=hsmpp_potion_marker_landed] run summon minecraft:creeper ~ ~ ~ {Fuse: 0, ignited: 1b, ExplosionRadius: 1, PersistenceRequired:1b}
