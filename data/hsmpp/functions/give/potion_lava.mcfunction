@@ -1,1 +1,2 @@
-give @s minecraft:splash_potion{CustomPotionColor: 16752896, Potion: "hsmpp:potion_lava"}
+#give @s minecraft:splash_potion{CustomPotionColor: 16752896, Potion: "hsmpp:potion_lava"}
+summon minecraft:armor_stand ~ ~ ~ {HandItems: [{id: "minecraft:splash_potion", Count: 64, tag: {CustomPotionColor: 16752896, Potion: "hsmpp:potion_lava"}}]}

@@ -1,0 +1,1 @@
+execute at @e[tag=hsmpp_potion_fangs,tag=hsmpp_potion_marker_landed] run summon minecraft:evoker_fangs ~ ~ ~ {PersistenceRequired:1b}

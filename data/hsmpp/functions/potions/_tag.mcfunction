@@ -6,3 +6,6 @@ tag @e[nbt={Potion: {tag: {Potion: "hsmpp:potion_cactus"}}}] add hsmpp_potion_ca
 
 tag @e[nbt={Potion: {tag: {Potion: "hsmpp:potion_lava"}}}] add hsmpp_potion
 tag @e[nbt={Potion: {tag: {Potion: "hsmpp:potion_lava"}}}] add hsmpp_potion_lava
+
+tag @e[nbt={Potion: {tag: {Potion: "hsmpp:potion_fangs"}}}] add hsmpp_potion
+tag @e[nbt={Potion: {tag: {Potion: "hsmpp:potion_fangs"}}}] add hsmpp_potion_fangs
